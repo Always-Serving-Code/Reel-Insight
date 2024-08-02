@@ -1,15 +1,15 @@
 .header {
-  height: 55px;
-  position: sticky;
-  top: 0;
-  z-index: 9999;
-  font-size: 20px;
-  background-color: #000000;
+	height: 55px;
+	position: sticky;
+	top: 0;
+	z-index: 9999;
+	font-size: 20px;
+	background-color: #000000;
 }
 
 .header-logo {
-  height: 95%;
-  padding: 0.5rem;
+	height: 95%;
+	padding: 0.5rem;
 }
 
 .button {
@@ -24,29 +24,29 @@
 
 /* Authorization Form  */
 .option {
-  font-size: 30px;
+	font-size: 30px;
 }
 
 .log-in-form,
 .sign-up-form {
-  padding-top: 60px;
-  text-align: center;
+	padding-top: 60px;
+	text-align: center;
 }
 
 .user-info-label {
-  margin: 20px;
+	margin: 20px;
 }
 
 .user-info-label input {
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  padding: 12px;
-  width: 90%;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	padding: 12px;
+	width: 90%;
 }
 
 .user-info-label input::placeholder {
-  color: #c2c2c2;
+	color: #c2c2c2;
 }
 
 .button-submit-auth {
@@ -72,230 +72,218 @@
 }
 
 .extra-options {
-  margin: 20px;
+	margin: 20px;
 }
 
 .extra-options button {
-  border-radius: 10px;
-  padding: 12px;
-  background-color: #ffffff;
+	border-radius: 10px;
+	padding: 12px;
+	background-color: #ffffff;
 }
 
 /* Film search bar */
 .searchbar-container {
-  margin: 7vh 0 0 0;
-  margin-bottom: -50px;
+	margin: 7vh 0 0 0;
+	margin-bottom: -50px;
 }
 
 .searchbar-title {
-  font-family: var(--serif);
-  font-size: 1.8rem;
+	font-family: var(--serif);
+	font-size: 1.8rem;
 }
 
 .film-search {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .film-search-bar {
-  width: 60%;
-  margin: 0.5rem auto;
-  font-size: 1rem;
-  padding: 0.5rem;
-  border-radius: 6px;
-  border-color: lightgray;
-  font-family: var(--sans-serif);
+	width: 60%;
+	margin: 0.5rem auto;
+	font-size: 1rem;
+	padding: 0.5rem;
+	border-radius: 6px;
+	border-color: lightgray;
+	font-family: var(--sans-serif);
 }
 
 .film-search-bar:focus {
-  border-color: #000000;
-  outline-style: none;
+	border-color: #000000;
+	outline-style: none;
 }
 
 .film-search-results {
-  position: absolute;
-  list-style: none;
-  width: 60%;
-  max-height: 45vh;
-  overflow-y: scroll;
-  background: white;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
-  margin-top: 100px;
+	position: absolute;
+	list-style: none;
+	width: 60%;
+	max-height: 45vh;
+	overflow-y: scroll;
+	background: white;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+	margin-top: 100px;
 }
 
 .film-search-card {
-  display: flex;
-  flex-direction: row;
-  margin: 5px;
-  background-color: white;
+	display: flex;
+	flex-direction: row;
+	margin: 5px;
+	background-color: white;
 }
 
 .film-search-link {
-  text-decoration: none;
-  font-family: var(--sans-serif);
-  line-height: 1.2rem;
-  color: black;
+	text-decoration: none;
+	font-family: var(--sans-serif);
+	line-height: 1.2rem;
+	color: black;
 }
 
 .film-search-img {
-  height: 50px;
-  width: 32px;
-  margin-right: 5px;
+	height: 50px;
+	width: 32px;
+	margin-right: 5px;
 }
 /* Films History Page */
 .film-history-page {
-  padding: 20px;
+	padding: 20px;
 }
 
 .film-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
 }
 
 .film-item {
-  position: relative;
-  width: 45%;
-  border-radius: 5px;
-  overflow: hidden;
-  text-align: center;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+	position: relative;
+	width: 45%;
+	border-radius: 5px;
+	overflow: hidden;
+	text-align: center;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .film-title {
-  margin: 10px 0;
-  padding: 0 0.2rem;
-  font-size: 14px;
+	margin: 10px 0;
+	padding: 0 0.2rem;
+	font-size: 14px;
 }
 
 .film-poster {
-  width: 100%;
-  height: 70%;
-  display: block;
+	width: 100%;
+	height: 70%;
+	display: block;
 }
 
 .dropdown-container {
-  margin-top: 1.5rem;
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
+	margin-top: 1.5rem;
+	margin-left: 1.5rem;
+	margin-bottom: 1rem;
 }
 
 .dropdown-sortby {
-  padding: 5px;
-  font-family: var(--sans-serif);
-  font-weight: 450;
+	padding: 5px;
+	font-family: var(--sans-serif);
+	font-weight: 450;
 }
 
 .dropdown,
 option {
-  font-family: var(--sans-serif);
+	font-family: var(--sans-serif);
 }
 /* Spinner in Loading */
 .spinnerContainer {
-  text-align: center;
-  margin-top: 70%;
+	text-align: center;
+	margin-top: 70%;
 }
 
 /* Navbar */
 .nav-bar {
-  height: 55px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  background-color: black;
-  position: fixed;
-  -webkit-tap-highlight-color: transparent;
+	height: 55px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	background-color: black;
+	position: fixed;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 0.7rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0.7rem 2rem;
 }
 
 .nav-link {
-  font-size: 2rem;
-  display: flex;
-  gap: 15px;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-}
-
-.link-text {
-  @media (max-width: 801px) {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-  }
+	font-size: 1rem;
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	color: white;
+	text-decoration: none;
 }
 
 /* User account page */
 .account-details-container {
-  margin: 3rem;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  padding: 2rem;
+	margin: 3rem;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	padding: 2rem;
 }
 
 .account-info {
-  margin: 20px;
-  font-family: var(--sans-serif);
+	margin: 20px;
+	font-family: var(--sans-serif);
 }
 
 .account-avatar {
-  max-width: 100px;
-  padding: 10px;
-  border-radius: 100%;
-  border: 1px solid black;
+	max-width: 100px;
+	padding: 10px;
+	border-radius: 100%;
+	border: 1px solid black;
 }
 
 .account-button {
-  text-align: center;
+	text-align: center;
 }
 
 .user-info {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .bold {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .italic {
-  font-style: italic;
+	font-style: italic;
 }
 
 .confirm-popup {
-  position: fixed;
-  z-index: 1000;
-  background-color: rgb(255, 255, 255, 0.5);
-  top: 40vh;
-  right: 10%;
-  left: 10%;
-  padding: 60px;
-  border: 0.5px solid black;
-  border-radius: 5px;
-  backdrop-filter: blur(6px);
+	position: fixed;
+	z-index: 1000;
+	background-color: rgb(255, 255, 255, 0.5);
+	top: 40vh;
+	right: 10%;
+	left: 10%;
+	padding: 60px;
+	border: 0.5px solid black;
+	border-radius: 5px;
+	backdrop-filter: blur(6px);
 }
 
 .button-confirm-popup {
-  border-radius: 10px;
-  padding: 12px;
-  background-color: #ffffff;
-  margin-right: 15px;
-  margin-left: 15px;
+	border-radius: 10px;
+	padding: 12px;
+	background-color: #ffffff;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
 .delete-button {
@@ -313,85 +301,116 @@ option {
 /* rating page */
 
 .rating-img {
-  height: 40vh;
+	height: 40vh;
 }
 
 .star:active {
-  -webkit-tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .added-text {
-  padding-bottom: 0.75rem;
+	padding-bottom: 0.75rem;
 }
 
 /* stats */
 .statCardStyle {
-  padding: 5px 40px;
+	padding: 5px 40px;
 }
 
 /* Stats Page */
 .stat-title {
-  text-align: center;
-  margin: 1rem;
+	text-align: center;
+	margin: 1rem;
 }
 
 .stat-divider {
-  margin-top: 2rem;
-  height: 1px;
-  border: none;
-  background-color: rgb(30, 30, 30);
+	margin-top: 2rem;
+	height: 1px;
+	border: none;
+	background-color: rgb(30, 30, 30);
 }
 
 .stat-line {
-  font-family: var(--sans-serif);
-  text-align: center;
+	font-family: var(--sans-serif);
+	text-align: center;
 }
 /* Homepage */
 .homepage-graph {
-  margin-top: 6rem;
+	width: 100%;
+	margin-top: 6rem;
 }
 
 .homepage-p {
-  text-align: center;
-  margin: 0.5rem 2rem;
+	text-align: center;
+	margin: 0.5rem 2rem;
 }
 
 .statfact-container {
-  padding-top: 100px;
-  /* position: absolute; */
+	padding-top: 100px;
+	/* position: absolute; */
 }
 
 .statfact-line {
-  text-align: center;
-  margin: auto;
-  line-height: 2rem;
-  width: 80%;
+	text-align: center;
+	margin: auto;
+	line-height: 2rem;
+	width: 80%;
 }
 
 /* Rating page */
 .rating-container {
-  text-align: center;
-  padding: 2rem;
+	text-align: center;
+	padding: 2rem;
 }
 
 .rating-img {
-  border-radius: 6px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .rating-p {
-  padding-bottom: 1rem;
+	padding-bottom: 1rem;
 }
 
 .rating-year {
-  font-weight: bold;
-  padding-bottom: 1rem;
+	font-weight: bold;
+	padding-bottom: 1rem;
 }
 
 .star-rating {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .rating-date {
-  margin-right: 1.5rem;
+	margin-right: 1.5rem;
+}
+
+/* web optimisation */
+@media (max-width: 600px) {
+  .link-text {
+    color: red;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+}
+
+@media (min-width: 601px) {
+  :root {
+    font-size: 20px;
+  }
+
+  .searchbar-container {
+    width: 80%;
+    margin: 0 auto 0;
+  }
+
+	.homepage-graph {
+		margin: auto;
+		width: 30%;
+	}
 }
